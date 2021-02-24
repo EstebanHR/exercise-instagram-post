@@ -1,45 +1,44 @@
-body {
-background: #BDBDBD;
-margin: 0;
+body{
+background: black;
 }
-div{
-    box-sizing: border-box;
-}
-header{
+.container{
+    height: 570px;
+    width: 400px;
     background: white;
-    padding: 10px;
-}
-header h1{
-    margin:0;
-}
-div.post{
-    background: white;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-div.post img {
-    width: 100%
-}
-div .post .post-header div:first-child {
-display: inline-block;
-width:80%;
-}
-div .post .post-header div:last-child {
-display: inline-block;
-width:18%;
-padding: 10px;
-text-align: right;
-color: gray;
-}
-div.post h2 {
-    padding: 5px;
-    margin: 0;
-}
-div.post p {
-    padding: 10px;
-    margin: 0;
-}
-div.container{
-    width: 600px;
     margin: auto;
+}
+/*Aqui empieza la cabecera*/
+.cabecera .logo {
+    font-size: 30px;
+    padding: 20px;
+    display: inline-block;
+}
+.cabecera .titulo{
+    display: inline-block;
+}
+.cabecera .menu{
+    float: right;
+    padding: 20px;
+}
+/* aqui empieza el cuerpo*/
+ .cuerpo img {
+   width: 400px;
+}
+.Iconos {
+    padding-left: 10px;
+    font-size: 30px;
+}
+.tag {
+    padding-right: 10px;
+    float: right;
+    font-size: 30px;
+}
+/*Aqui empieza el pie*/
+.pie .parrafo1{
+    padding:10px;
+    font-size: 15px;
+}
+.pie .parrafo2{
+    padding:10px;
+    font-size: 15px;
 }
